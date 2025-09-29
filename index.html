@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog to $10K: The Complete Blueprint That Works in 2024</title>
+     <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '645305658614276');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=645305658614276&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f8fafc;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+            box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        }
+
+        /* Modern Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.1" /><stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0" /></linearGradient></defs><rect width="100" height="20" fill="url(%23grad)"/></svg>') repeat;
+            animation: shimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.8; }
+        }
+
+        .social-proof-badge {
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-bottom: 32px;
+            display: inline-block;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .highlight {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+        }
+
+        .hero p {
+            font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+            margin-bottom: 40px;
+            opacity: 0.95;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-primary {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.1em;
+            font-weight: 700;
+            border-radius: 12px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.4);
+        }
+
+        /* Timer Section */
+        .timer-section {
+            background: rgba(0,0,0,0.1);
+            padding: 32px;
+            border-radius: 20px;
+            margin-top: 40px;
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .timer-title {
+            font-size: 1.3em;
+            font-weight: 800;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .countdown {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            max-width: 400px;
+            margin: 0 auto 20px;
+        }
+
+        .time-unit {
+            background: rgba(255,255,255,0.15);
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 12px;
+            padding: 16px 8px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .time-number {
+            font-size: 1.8em;
+            font-weight: 900;
+            display: block;
+            line-height: 1;
+        }
+
+        .time-label {
+            font-size: 0.8em;
+            opacity: 0.9;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* Content Sections */
+        .section {
+            padding: 80px 40px;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 48px;
+            color: #1a1a1a;
+            line-height: 1.2;
+        }
+
+        /* Story Section */
+        .story {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .story-content {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .story h2 {
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .story-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .quote {
+            background: rgba(255,255,255,0.15);
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid #ffd700;
+            font-style: italic;
+            margin: 32px 0;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Problem Section */
+        .problem {
+            background: #1a1a1a;
+            color: white;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .problem-card {
+            background: rgba(255,255,255,0.05);
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .problem-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            opacity: 0.8;
+        }
+
+        .problem-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 16px;
+            color: #ff6b6b;
+        }
+
+        /* Solution Section */
+        .solution {
+            background: #f8fafc;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .module-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border: 1px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .module-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+        }
+
+        .module-number {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .module-card h3 {
+            font-size: 1.4em;
+            margin-bottom: 16px;
+            color: #1a1a1a;
+        }
+
+        .module-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .module-card li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 24px;
+        }
+
+        .module-card li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: bold;
+        }
+
+        /* Social Proof */
+        .testimonials {
+            background: #667eea;
+            color: white;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .testimonial {
+            background: rgba(255,255,255,0.1);
+            padding: 32px;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stars {
+            color: #ffd700;
+            font-size: 1.2em;
+            margin-bottom: 16px;
+        }
+
+        .testimonial-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            font-weight: 700;
+            color: #ffd700;
+        }
+
+        .testimonial-title {
+            opacity: 0.8;
+            font-size: 0.9em;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+            text-align: center;
+        }
+
+        .pricing .section-title {
+            color: #2d3436;
+        }
+
+        .value-stack {
+            background: rgba(255,255,255,0.9);
+            padding: 40px;
+            border-radius: 20px;
+            margin: 40px auto;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        }
+
+        .value-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid #e5e7eb;
+            color: #2d3436;
+        }
+
+        .value-item:last-child {
+            border-bottom: 3px solid #2d3436;
+            font-weight: 800;
+            font-size: 1.1em;
+        }
+
+        .price-container {
+            margin: 40px 0;
+        }
+
+        .old-price {
+            font-size: 2em;
+            text-decoration: line-through;
+            color: #636e72;
+            margin-right: 20px;
+        }
+
+        .new-price {
+            font-size: 4em;
+            font-weight: 900;
+            color: #e74c3c;
+            position: relative;
+        }
+
+        .guarantee {
+            background: rgba(16, 185, 129, 0.1);
+            border: 2px solid #10b981;
+            padding: 32px;
+            border-radius: 16px;
+            margin: 40px auto;
+            max-width: 500px;
+        }
+
+        .guarantee h3 {
+            color: #10b981;
+            font-size: 1.4em;
+            margin-bottom: 16px;
+        }
+
+        .guarantee p {
+            color: #2d3436;
+        }
+
+        /* FAQ Section */
+        .faq {
+            background: #f8fafc;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: white;
+            margin: 16px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background: none;
+            border: none;
+            padding: 24px;
+            width: 100%;
+            text-align: left;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1a1a1a;
+        }
+
+        .faq-question:hover {
+            background: #f8fafc;
+        }
+
+        .faq-answer {
+            padding: 0 24px 24px;
+            color: #4b5563;
+            line-height: 1.6;
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        /* About Section */
+        .about {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .about-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-text h3 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+        }
+
+        .about-text .title {
+            opacity: 0.8;
+            font-size: 1.1em;
+            margin-bottom: 24px;
+        }
+
+        .about-text p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        /* Final CTA */
+        .final-cta {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+
+        .urgency-banner {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.1em;
+            animation: pulse-banner 2s infinite;
+        }
+
+        @keyframes pulse-banner {
+            0%, 100% { opacity: 0.9; }
+            50% { opacity: 1; }
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 20px;
+            }
+
+            .section {
+                padding: 60px 20px;
+            }
+
+            .countdown {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .modules-grid,
+            .testimonials-grid,
+            .problems-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .about-content {
+                text-align: center;
+            }
+
+            .value-stack {
+                margin: 20px;
+                padding: 30px 20px;
+            }
+        }
+
+        /* Smooth Loading Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-on-scroll {
+            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="container">
+        <section class="hero">
+            <div class="social-proof-badge">
+                🚀 Join 12,847+ Students Building Profitable Blogs
+            </div>
+            
+            <h1>Turn Your Ideas Into a <span class="highlight">$10K+/Month</span> Blog Business</h1>
+            
+            <p>The proven system that's helped thousands of complete beginners build profitable blogs - even if you've never written a post before</p>
+            
+            <a href="https://javis1225.gumroad.com/l/bgfxs" target="_blank" class="cta-primary" onclick="trackPurchaseClick()">
+                Start Your Blog Empire Today
+            </a>
+            
+            <div class="timer-section">
+                <div class="timer-title">⚡ Flash Sale Ends In ⚡</div>
+                <div class="countdown">
+                    <div class="time-unit">
+                        <span class="time-number" id="days">02</span>
+                        <span class="time-label">Days</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-number" id="hours">23</span>
+                        <span class="time-label">Hours</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-number" id="minutes">59</span>
+                        <span class="time-label">Minutes</span>
+                    </div>
+                    <div class="time-unit">
+                        <span class="time-number" id="seconds">45</span>
+                        <span class="time-label">Seconds</span>
+                    </div>
+                </div>
+                <p>After this timer hits zero, price increases to $197</p>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section class="section story">
+            <div class="story-content">
+                <h2>From Food Stamps to $15K/Month</h2>
+                
+                <div class="story-text">
+                    <p>Jessica Martinez was a single mom working part-time as a waitress, struggling to pay bills and feed her two kids. After being laid off from her marketing job, she found herself $47,000 in debt with no clear path forward.</p>
+                    
+                    <div class="quote">
+                        "I remember crying in my car after another job rejection. My 8-year-old asked why we couldn't go to Disney World like her classmates. That's when I knew I had to find another way."
+                    </div>
+                    
+                    <p>Desperate for change, Jessica discovered our blogging system. She had no website, no followers, and no tech skills - just 2 hours each night after her kids went to bed and a passion for budget-friendly healthy cooking.</p>
+                    
+                    <p><strong>12 months later, Jessica's "Budget Meals for Busy Moms" blog generates $15,000+ per month.</strong> She's debt-free, homeschools her kids, and yes - they've been to Disney World twice.</p>
+                    
+                    <div class="quote">
+                        "If someone told me a year ago that my little recipe blog would change everything, I would have laughed. But here we are. This system works if you work it."
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section class="section problem">
+            <h2 class="section-title">Why 97% of New Blogs Fail</h2>
+            
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">❌</div>
+                    <h3>Wrong Niche Selection</h3>
+                    <p>They choose topics they're passionate about instead of niches with hungry, paying customers.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">📉</div>
+                    <h3>No Traffic Strategy</h3>
+                    <p>They publish content hoping someone will magically find it among 600 million other blogs.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">💸</div>
+                    <h3>Zero Monetization Plan</h3>
+                    <p>They focus on "building an audience" without any clear path to turn visitors into customers.</p>
+                </div>
+                
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3>Give Up Too Soon</h3>
+                    <p>They expect overnight success and quit right before their breakthrough moment.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px; padding: 40px; background: rgba(255,255,255,0.05); border-radius: 20px;">
+                <h3 style="font-size: 2em; margin-bottom: 20px; color: #ff6b6b;">Don't Let This Be Your Story</h3>
+                <p style="font-size: 1.3em;">Every day you wait is another day stuck in your current situation. The best time to start was yesterday. The second best time is right now.</p>
+            </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section class="section solution">
+            <h2 class="section-title">The Complete Blog to $10K System</h2>
+            
+            <div class="modules-grid">
+                <div class="module-card">
+                    <div class="module-number">1</div>
+                    <h3>Profitable Niche Selection</h3>
+                    <ul>
+                        <li>The "Goldmine Formula" for finding profitable niches</li>
+                        <li>7 evergreen niches that always make money</li>
+                        <li>How to validate your idea in 24 hours</li>
+                        <li>Finding your passion-profit sweet spot</li>
+                    </ul>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-number">2</div>
+                    <h3>Blog Setup & Design</h3>
+                    <ul>
+                        <li>WordPress setup in under 30 minutes</li>
+                        <li>Professional design that converts</li>
+                        <li>Essential plugins (only the ones you need)</li>
+                        <li>Legal pages and compliance</li>
+                    </ul>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-number">3</div>
+                    <h3>Content That Converts</h3>
+                    <ul>
+                        <li>The "Hook-Story-Offer" content framework</li>
+                        <li>57 proven headline templates</li>
+                        <li>Write compelling posts in 45 minutes</li>
+                        <li>Psychology triggers that sell</li>
+                    </ul>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-number">4</div>
+                    <h3>Traffic Explosion</h3>
+                    <ul>
+                        <li>Pinterest strategy for 100K+ monthly visitors</li>
+                        <li>SEO simplified for beginners</li>
+                        <li>Social media automation systems</li>
+                        <li>Guest posting that gets results</li>
+                    </ul>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-number">5</div>
+                    <h3>Multiple Income Streams</h3>
+                    <ul>
+                        <li>Ethical affiliate marketing that converts</li>
+                        <li>Create digital products in 48 hours</li>
+                        <li>Premium sponsorship negotiations</li>
+                        <li>Email marketing that generates $1-3/subscriber</li>
+                    </ul>
+                </div>
+                
+                <div class="module-card">
+                    <div class="module-number">6</div>
+                    <h3>Scale to 6-Figures</h3>
+                    <ul>
+                        <li>The "Income Stack" system</li>
+                        <li>Hiring virtual assistants</li>
+                        <li>Automated sales funnels</li>
+                        <li>Exit strategies and blog sales</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="section testimonials">
+            <h2 class="section-title">Real Results From Real Students</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <div class="testimonial-text">
+                        "I was a broke college student eating ramen every night. Started my personal finance blog using this system and made $3,247 in my first 90 days. Now I'm debt-free and helping other students!"
+                    </div>
+                    <div class="testimonial-author">Marcus Chen</div>
+                    <div class="testimonial-title">Personal Finance Blogger</div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <div class="testimonial-text">
+                        "After my divorce, I needed income fast. Had zero blogging experience but followed every step. My fitness blog hit $6,800/month by month 5. Finally have financial independence!"
+                    </div>
+                    <div class="testimonial-author">Rachel Thompson</div>
+                    <div class="testimonial-title">Fitness Blogger & Mom</div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <div class="testimonial-text">
+                        "Thought I was too old at 58 to learn 'internet stuff.' This system proved me wrong! My gardening blog earns more than my old teaching pension. Retirement just got sweeter."
+                    </div>
+                    <div class="testimonial-author">Robert Williams</div>
+                    <div class="testimonial-title">Gardening Blogger (Retired Teacher)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section pricing">
+            <h2 class="section-title">Everything You Get Today</h2>
+            
+            <div class="value-stack">
+                <div class="value-item">
+                    <span>Complete 6-Module Video Training (12+ hours)</span>
+                    <strong>$297</strong>
+                </div>
+                <div class="value-item">
+                    <span>Step-by-Step Action Guides & Checklists</span>
+                    <strong>$97</strong>
+                </div>
+                <div class="value-item">
+                    <span>JUSTIN BROOKE - List Building Workshop</span>
+                    <strong>$497</strong>
+                </div>
+                <div class="value-item">
+                    <span>Blogging For Profit: Content Creation Course</span>
+                    <strong>$600</strong>
+                </div>
+                <div class="value-item">
+                    <span>SEO At Scale: Organic Growth Masterclass</span>
+                    <strong>$1,500</strong>
+                </div>
+                <div class="value-item">
+                    <span>AdSense Arbitrage Masterclass</span>
+                    <strong>$1,000</strong>
+                </div>
+                <div class="value-item">
+                    <span>YouTube Business Blueprint</span>
+                    <strong>$900</strong>
+                </div>
+                <div class="value-item">
+                    <span>Social Media Content Creation Course</span>
+                    <strong>$250</strong>
+                </div>
+                <div class="value-item">
+                    <span>Premium Templates & Tools Collection</span>
+                    <strong>$347</strong>
+                </div>
+                <div class="value-item">
+                    <span>Private Community + 90 Days Live Support</span>
+                    <strong>$294</strong>
+                </div>
+                <div class="value-item">
+                    <span><strong>TOTAL VALUE:</strong></span>
+                    <strong style="color: #e74c3c;">$5,782</strong>
+                </div>
+            </div>
+            
+            <p style="font-size: 1.4em; margin: 40px 0; color: #2d3436;"><strong>But you won't pay anywhere near that...</strong></p>
+            
+            <div class="price-container">
+                <span class="old-price">$5,782</span>
+                <span class="new-price">$47</span>
+            </div>
+            
+            <p style="font-size: 1.2em; color: #2d3436; margin-bottom: 40px;">That's 99% off - literally pennies on the dollar!</p>
+            
+            <a href="https://javis1225.gumroad.com/l/bgfxs" target="_blank" class="cta-primary" onclick="trackPurchaseClick()" style="font-size: 1.3em; padding: 20px 50px;">
+                🚀 Get Instant Access Now - Only $47
+            </a>
+            
+            <div class="guarantee">
+                <h3>🔒 60-Day Money-Back Guarantee</h3>
+                <p>Try the entire system risk-free. If you don't see results or aren't completely satisfied, just email us within 60 days for a full refund. No questions, no hassles.</p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section faq">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: I have zero technical skills. Can I really do this?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> Absolutely! This system is designed for complete beginners. We show you exactly where to click, what to type, and how to avoid common mistakes. If you can send an email, you can build a profitable blog with our system.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: I don't have time. I'm already overwhelmed.
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> Our system is designed for busy people. Each daily task takes 30-60 minutes. Work on it during lunch breaks, after kids go to bed, or while watching TV. No 12-hour days required.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: What if I pick the wrong niche?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> Module 1 prevents this! We show you how to validate your niche before you start. Plus, the skills transfer to any niche. Many students run multiple successful blogs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: How quickly will I see results?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> Most students see traffic within 2 weeks and first income within 60-90 days. This isn't get-rich-quick - it's a proven system that builds sustainable income with consistent effort.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: Do I get support if I need help?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> Yes! You get access to our private community with 10,000+ active bloggers, plus 90 days of weekly live Q&A sessions. You're never alone in this journey.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        Q: Is the guarantee real?
+                        <span class="faq-icon">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>A:</strong> 100% real. We offer a full 60-day money-back guarantee. If you're not satisfied for any reason, email us and we'll refund every penny. No questions asked.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about">
+            <h2 class="section-title">Meet Your Instructor</h2>
+            
+            <div class="about-content" style="display: block; text-align: center; max-width: 800px; margin: 0 auto;">
+                <div class="about-text">
+                    <h3>Emmanuel Gbajavi</h3>
+                    <p class="title">7-Figure Blog Empire Builder</p>
+                    
+                    <p>I wasn't always successful. Five years ago, I was struggling as a freelance writer, making $500/month and living in my parents' basement at 32. I felt like a complete failure.</p>
+                    
+                    <p>That's when I cracked the code on profitable blogging. My first blog hit $10K/month within 8 months. Today, my blog network generates over $100,000/month.</p>
+                    
+                    <p><strong>More importantly, I've helped over 12,847 students build profitable blogs.</strong> This system has been tested and proven across every niche imaginable.</p>
+                    
+                    <div style="background: rgba(255,255,255,0.15); padding: 24px; border-radius: 12px; border-left: 4px solid #ffd700; font-style: italic; margin-top: 20px;">
+                        "My mission is simple: help you achieve financial freedom through blogging in the shortest time possible. This system is everything I wish I had when I started."
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="section final-cta">
+            <h2 style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 32px;">Your Transformation Starts Now</h2>
+            
+            <p style="font-size: 1.3em; margin-bottom: 24px; opacity: 0.9;">Just like Jessica, you're one decision away from completely changing your life.</p>
+            
+            <p style="font-size: 1.1em; margin-bottom: 40px; opacity: 0.8;">Will you look back a year from now wishing you had started today? Or will you be sharing your success story with us?</p>
+            
+            <a href="https://javis1225.gumroad.com/l/bgfxs" target="_blank" class="cta-primary" onclick="trackPurchaseClick()" style="font-size: 1.4em; padding: 24px 60px; margin-bottom: 30px;">
+                Yes! Transform My Life Now - $47
+            </a>
+            
+            <p style="font-size: 0.9em; opacity: 0.7;">Join 12,847+ successful students • 60-day guarantee • Start in 5 minutes</p>
+        </section>
+
+        <!-- Urgency Banner -->
+        <div class="urgency-banner">
+            ⚠️ FLASH SALE ENDS SOON - SECURE YOUR SPOT NOW! ⚠️
+        </div>
+
+        <!-- Footer -->
+        <footer style="background: #2c3e50; color: white; padding: 40px; text-align: center;">
+            <p>&copy; 2024 Blog Empire Builder. All rights reserved.</p>
+            <p style="margin: 20px 0;">
+                <a href="#" onclick="showModal('privacy')" style="color: #3498db; text-decoration: none; margin: 0 15px;">Privacy Policy</a> |
+                <a href="#" onclick="showModal('terms')" style="color: #3498db; text-decoration: none; margin: 0 15px;">Terms of Service</a> |
+                <a href="#" onclick="showModal('refund')" style="color: #3498db; text-decoration: none; margin: 0 15px;">Refund Policy</a>
+            </p>
+            <p style="font-size: 0.9em; opacity: 0.8;">
+                Contact: emmanuegbajavi@gmail.com | Results depend on individual effort
+            </p>
+        </footer>
+    </div>
+
+    <!-- Legal Modal -->
+    <div id="legalModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 10000; overflow-y: auto;">
+        <div style="max-width: 800px; margin: 20px auto; background: white; border-radius: 15px; padding: 40px; position: relative;">
+            <button onclick="closeModal()" style="position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 2em; cursor: pointer;">&times;</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Kit.com Integration -->
+    <script async data-uid="a027930941" src="https://primeaura.kit.com/a027930941/index.js"></script>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const countdownDate = now + (2 * 24 * 60 * 60 * 1000) + (23 * 60 * 60 * 1000);
+            const distance = countdownDate - now;
+            
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            document.getElementById("days").textContent = String(days).padStart(2, '0');
+            document.getElementById("hours").textContent = String(hours).padStart(2, '0');
+            document.getElementById("minutes").textContent = String(minutes).padStart(2, '0');
+            document.getElementById("seconds").textContent = String(seconds).padStart(2, '0');
+            
+            if (distance < 0) {
+                document.querySelector('.timer-section').innerHTML = 
+                    '<div style="color: #ff6b6b; font-size: 1.5em; font-weight: bold;">FLASH SALE ENDED - Price Now $197</div>';
+            }
+        }
+        
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Purchase Tracking
+        function trackPurchaseClick() {
+            if (typeof fbq !== 'undefined') {
+                fbq('track', 'InitiateCheckout', {
+                    value: 47.00,
+                    currency: 'USD'
+                });
+            }
+        }
+
+        // FAQ Toggle
+        function toggleFaq(button) {
+            const faqItem = button.parentElement;
+            const isActive = faqItem.classList.contains('active');
+            
+            // Close all FAQs
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Open clicked FAQ if it wasn't active
+            if (!isActive) {
+                faqItem.classList.add('active');
+            }
+        }
+
+        // Legal Modal Functions
+        function showModal(type) {
+            let content = '';
+            
+            if (type === 'privacy') {
+                content = `
+                    <h2>Privacy Policy</h2>
+                    <p><strong>Last Updated:</strong> January 2024</p>
+                    <h3>Information Collection</h3>
+                    <p>We collect information when you purchase our course, including name, email, and payment details...</p>
+                    <h3>Data Usage</h3>
+                    <p>Your information is used to deliver course content, process payments, and send relevant updates...</p>
+                    <h3>Contact</h3>
+                    <p>Questions? Email:emmanuelgbajavi@gmail.com</p>
+                `;
+            } else if (type === 'terms') {
+                content = `
+                    <h2>Terms of Service</h2>
+                    <p><strong>Last Updated:</strong> January 2024</p>
+                    <h3>Course Access</h3>
+                    <p>Upon payment, you receive personal access to course materials. Sharing is prohibited...</p>
+                    <h3>Refund Policy</h3>
+                    <p>60-day money-back guarantee on all purchases...</p>
+                    <h3>Contact</h3>
+                    <p>Questions? Email: emmanuelgbajavi@gmail.com</p>
+                `;
+            } else if (type === 'refund') {
+                content = `
+                    <h2>Refund Policy</h2>
+                    <p><strong>60-Day Guarantee</strong></p>
+                    <p>If you're not satisfied with your purchase, request a full refund within 60 days...</p>
+                    <h3>How to Request</h3>
+                    <p>Email: emmanuelgbajavi@gmail.com with your order details...</p>
+                    <h3>Processing</h3>
+                    <p>Refunds processed within 5-10 business days to original payment method...</p>
+                `;
+            }
+            
+            document.getElementById('modalContent').innerHTML = content;
+            document.getElementById('legalModal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('legalModal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modals on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Smooth scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-on-scroll');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.module-card, .testimonial, .problem-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
